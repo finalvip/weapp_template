@@ -1,0 +1,56 @@
+/**about.wxss**/
+.page-phone{
+  font-family: '微软雅黑';
+}
+.header{
+  padding: 41rpx;
+  position: relative;
+}
+.wx-title{
+  font-size: 46rpx;
+  font-weight: bold;
+}
+.wx-desc{
+  font-size: 32rpx;
+  color: #aaa;
+  line-height: 67rpx;
+}
+.logoimg{
+  width:100rpx;
+  height:100rpx;
+  position: absolute;
+  top:40rpx;
+  right:40rpx;
+}
+.content{
+  padding: 41rpx;
+  border-top: 1rpx #eeeeee solid;
+  border-bottom:1rpx #eeeeee solid;
+}
+.wx-cell{
+  margin-bottom: 46rpx;
+  margin-left: 60rpx;
+  position: relative;
+}
+.icon{
+  width: 50rpx;
+  height:50rpx;
+  position: absolute;
+  left:-55rpx;
+  top:-6rpx;
+}
+.icon-postion{
+  width: 50rpx;
+  height:50rpx;
+}
+.cell-fd{
+  width: 50rpx;
+  height:50px;
+  position: absolute;
+  top:-6rpx;
+  right:0px;
+}
+.cell-bd{
+  font-size: 32rpx;
+  color:#666;
+}

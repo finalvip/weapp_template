@@ -1,0 +1,12 @@
+.actionpic{
+ width:98%;
+ height:388rpx;
+ padding:1% 1%;
+ border-radius: 36rpx;
+}
+.clear{
+  display: flex;
+  flex-direction: column;
+  height:10rpx;
+  background: #eeeeee;
+}

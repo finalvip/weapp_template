@@ -1,0 +1,47 @@
+.top{
+  display:flex;
+  flex-direction: row;
+  width:90%;
+  height:180rpx;
+  padding:10rpx 10rpx;
+  margin:10rpx auto;
+}
+.top-trimg{
+  width:160rpx;
+  height:160rpx;
+  margin:15rpx 20rpx; 
+  border-radius: 130rpx;
+}
+.top-info{
+  margin:15rpx 20rpx;
+  overflow: hidden; 
+  font-size: 32rpx;
+  font-family: "微软雅黑";
+  color:#606060;
+}
+.toin-info{
+  line-height: 60rpx;
+  font-size: 28rpx;
+}
+.in-title{
+  font-size: 32rpx;
+  font-family: "微软雅黑";
+  color:#606060;
+  line-height: 60rpx;
+  padding-left:20rpx;
+  border-left: 10rpx solid #4ec4c8;
+  border-bottom: 1rpx solid #eeeeee;
+}
+.in-info{
+  font-size: 32rpx;
+  font-family: "微软雅黑";
+  color:#606060;
+  line-height: 60rpx;
+  padding:16rpx;
+}
+.clear{
+  display: flex;
+  flex-direction: column;
+  height:16rpx;
+  background: #eeeeee;
+}

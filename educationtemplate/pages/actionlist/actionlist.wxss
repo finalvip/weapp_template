@@ -1,0 +1,44 @@
+.page{
+  font-family: "微软雅黑";
+}
+.cate{
+  width:120rpx;
+  font-size: 30rpx;
+  padding: 20rpx;
+  background-color: #efeff4;
+  color:#aaaaaa;
+  margin: 30rpx;
+}
+.title{
+  font-size: 46rpx;
+  font-weight: bolder;
+  padding: 20rpx;
+}
+.desc{
+  position: relative;
+  padding: 20rpx;
+}
+.auther{
+  font-size: 32rpx;
+  color:#aaaaaa;
+}
+.time{
+  font-size: 32rpx;
+  color: #aaaaaa;
+  position: absolute;
+  top:21rpx;
+  right:46rpx;
+}
+.content{
+  padding: 20rpx;
+  font-size: 14px;
+  line-height: 1.5;
+  
+}
+.con_text{
+  font-size: 32rpx;
+  line-height: 48rpx;
+}
+.th_img{
+  width: 100%;
+}

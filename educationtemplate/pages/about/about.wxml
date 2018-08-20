@@ -1,0 +1,57 @@
+<view class="page-phone">
+    <view class="header">
+      <view class="wx-title">定制各个行业模板</view>
+      <view class="wx-desc">微信开发，朋友圈广告</view>
+      <image src="{{logosrc}}" class="logoimg"></image>
+    </view>
+
+    <view class="content">
+
+      <view class="wx-cell">
+         <view class="icon">
+            <image src="{{adrimg}}" class="icon-postion"></image>
+         </view>
+         <view class="cell-bd" bindtap="getLocation">北京市海淀区西土城路4号</view>
+         <view class="cell-fd">
+            <image src="{{jtimg}}" class="icon-postion"></image>
+         </view>
+      </view>
+
+      <view class="wx-cell">
+         <view class="icon">
+            <image src="{{clockimg}}" class="icon-postion"></image>
+         </view>
+         <view class="cell-bd">9：00 - 23：00</view>
+      </view>
+
+      <view class="wx-cell" bindtap="calling">
+         <view class="icon">
+            <image src="{{phoneimg}}" class="icon-postion"></image>
+         </view>
+         <view class="cell-bd">QQ：1738885251</view>
+         <view class="cell-fd">
+           <image src="{{jtimg}}" class="icon-postion"></image>
+         </view>
+      </view>
+
+    </view>
+
+    <view class="content">
+       <view class="wx-cell">
+         <view class="icon">
+            <image src="{{picimg}}" class="icon-postion"></image>
+         </view>
+         <view class="cell-bd">业务图片</view>
+       </view>
+       
+       <swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+       <block wx:for="{{imgUrls}}">
+          <swiper-item>
+            <image src="{{item}}" class="slide-image" width="355" height="150"/>
+          </swiper-item>
+       </block>
+       </swiper>
+       
+    </view>
+</view>

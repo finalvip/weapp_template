@@ -1,0 +1,14 @@
+<view class="content">
+<navigator url="/pages/actionlist/actionlist" hover-class="navigator-hover" class="con-item">
+<image src="{{actionpic}}" class="actionpic"></image>
+<view class="clear"></view>
+</navigator>
+<navigator url="url" class="con-item">
+<image src="{{actionapic}}" class="actionpic"></image>
+<view class="clear"></view>
+</navigator>
+<navigator url="url" class="con-item">
+<image src="{{actionbpic}}" class="actionpic"></image>
+<view class="clear"></view>
+</navigator>
+</view>

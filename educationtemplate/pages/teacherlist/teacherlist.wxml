@@ -1,0 +1,22 @@
+<view class="content">
+  <view class="top">
+    <view class="top-tr">
+     <image src="{{trimg}}" class="top-trimg"></image>
+    </view>
+    <view class="top-info">
+      <view class="toin-name">姓名姓名</view>
+      <view class="toin-info"> 讲课风格:风趣幽默，生动形象</view>
+    </view>
+  </view>
+  <view class="clear"></view>
+  <view class="info">
+    <view class="in-title">个人简介</view>
+    <view class="in-info">简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介</view>
+  </view>
+  <view class="clear"></view>
+  <view class="info">
+    <view class="in-title">毕业院校</view>
+    <view class="in-info">XXX大学</view>
+  </view>
+  <view class="clear"></view>
+</view>

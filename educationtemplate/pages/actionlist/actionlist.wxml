@@ -1,0 +1,15 @@
+<view class="page">
+  <view class="header">
+    <view class="cate">活动</view>
+    <view class="title">XXX活动</view>
+    <view class="desc">
+       <view class="auther">XX教育</view>
+       <view class="time">2017-6-21</view>
+    </view>
+  </view>
+
+  <view class="content">
+      <!--<image src="{{new.thumb}}" class="th_img"></image>-->
+      <text class="con_text">XX详情简介XX详情简介XX详情简介XX详情简介XX详情简介XX详情简介XX详情简介XX详情简介</text>
+  </view>
+</view>

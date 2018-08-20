@@ -1,0 +1,56 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/signup/signup",
+    "pages/signup/url",
+    "pages/action/action",
+    "pages/about/about",
+    "pages/teacher/teacher",
+    "pages/teacherlist/teacherlist",
+    "pages/actionlist/actionlist",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#4ec4c8",
+    "navigationBarTitleText": "教育模板",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#888",
+    "selectedColor": "#4ec5c9",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/home.png",
+        "selectedIconPath": "image/homeactive.png"
+      },
+      {
+        "pagePath": "pages/signup/signup",
+        "text": "我要报名",
+        "iconPath": "image/bm.png",
+        "selectedIconPath": "image/bmactive.png"
+      },
+      {
+        "pagePath": "pages/action/action",
+        "text": "活动",
+        "iconPath": "image/action.png",
+        "selectedIconPath": "image/actionactive.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于我们",
+        "iconPath": "image/action.png",
+        "selectedIconPath": "image/actionactive.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
